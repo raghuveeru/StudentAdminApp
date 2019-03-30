@@ -21,6 +21,8 @@ The following routes are set up, and will return JSON data:
 
 #### Register
 + **POST** register student and teacher: /api/register
+
+
 {
   "teacher": "teacherjoe@gmail.com",
   "students":
@@ -34,6 +36,7 @@ The successful JSON response code will be 204
 + **GET** get students registered to teacher: /api/commonstudents?teacher=teacherken%40gmail.com
 
 The JSON response will contains all students registered under teacher 'teacherken@gmail.com' and response code:200
+
 {
     "students": [
         "studonet1@example.com",
@@ -46,6 +49,7 @@ The JSON response will contains all students registered under teacher 'teacherke
 + **GET** get common students register to multiple teachers: /api/commonstudents?teacher=teacherken%40gmail.com&teacher=teacherjoe%40gmail.com
 
 The JSON response will contains common students registered under teacher 'teacherken@gmail.com' and response code:200
+
 {
     "students": [
         "commonstudent1@example.com",
@@ -56,6 +60,7 @@ The JSON response will contains common students registered under teacher 'teache
 #### SuspendStudent
 + **POST** teacher can suspend student:/api/suspend
 
+
 Teacher can suspend student and successful JSON response code will be 204
 
 #### RetrieveForNotifications
@@ -63,12 +68,14 @@ Teacher can suspend student and successful JSON response code will be 204
 Teacher sends notification to students register to him and he can send notifications to others by adding in notification
 response code will be 200
 request body:
+
 {
   "teacher":  "teacherken@gmail.com",
   "notification": "Hello students! @studentagnes12@exam.gmail.com @studentmiche13@gmail.com"
 }
 
 Response:
+
 {
     "students": [
         "studonet2@example.com",
@@ -79,13 +86,16 @@ Response:
     ]
 }
 
+
 request without email in notification:
+
 {
   "teacher":  "teacherken@gmail.com",
   "notification": "Hello students!"
 }
 
 Response:
+
 {
     "students": [
         "studonet2@example.com",
