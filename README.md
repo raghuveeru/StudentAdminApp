@@ -133,3 +133,4 @@ run below commands to run test cases
 
 npm test
 
+Please import attached postman dump for testig the application "StudentAdministration.postman_collection.json"
