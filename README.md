@@ -106,7 +106,9 @@ Response:
 
 This application deployed in below server, so hostname and endpoints will be as shown belos
 HostName: http://c2fec342.ngrok.io
+
 EndPoints:
+
 	**http://c2fec342.ngrok.io/api/register
 	
 	**http://c2fec342.ngrok.io/api/commonstudents?teacher=teacherken%40gmail.com
