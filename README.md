@@ -25,6 +25,7 @@ The following routes are set up, and will return JSON data:
 
 {
   "teacher": "teacherjoe@gmail.com",
+  
   "students":
     [
       "commonstudent2@example.com"
@@ -91,6 +92,7 @@ request without email in notification:
 
 {
   "teacher":  "teacherken@gmail.com",
+  
   "notification": "Hello students!"
 }
 
