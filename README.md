@@ -107,19 +107,19 @@ Response:
 }
 
 This application deployed in below server, so hostname and endpoints will be as shown belos
-HostName: http://c2fec342.ngrok.io
+HostName: http://b4250e55.ngrok.io
 
 EndPoints:
 
-	**http://c2fec342.ngrok.io/api/register
+	**http://b4250e55.ngrok.io/api/register
 	
-	**http://c2fec342.ngrok.io/api/commonstudents?teacher=teacherken%40gmail.com
+	**http://b4250e55.ngrok.io/api/commonstudents?teacher=teacherken%40gmail.com
 	
-	**http://c2fec342.ngrok.io/api/commonstudents?teacher=teacherken%40gmail.com&teacher=teacherjoe%40gmail.com
+	**http://b4250e55.ngrok.io/api/commonstudents?teacher=teacherken%40gmail.com&teacher=teacherjoe%40gmail.com
 	
-	**http://c2fec342.ngrok.io/api/suspend
+	**http://b4250e55.ngrok.io/api/suspend
 	
-	**http://c2fec342.ngrok.io/api/retrievefornotifications
+	**http://b4250e55.ngrok.io/api/retrievefornotifications
 	
 		
 ## Start node server
